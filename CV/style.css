@@ -1,0 +1,52 @@
+@import url('./src/components/header/header.css');
+@import url('./src/components/main/main.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --background: #000000;
+  --body: #ffde00;
+  --color-primary-text: #ffde00;
+  --color-secondary-text: #ffffff;
+
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-m: 30px;
+  --margin-l: 40px;
+  --margin-xl: 50px;
+
+  --padding-xs: 10px;
+  --padding-s: 20px;
+  --padding-m: 30px;
+  --padding-l: 40px;
+  --padding-xl: 50px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100svh;
+  background-color: var(--background);
+  color: var(--body);
+}
+
+a,
+h2 {
+  color: var(--color-secondary-text);
+  letter-spacing: 4px;
+}

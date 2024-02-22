@@ -1,0 +1,26 @@
+header {
+  height: 180px;
+  background-color: var(--color-fondo);
+  color: var(--color-primary-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+header li {
+  text-align: center;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:hover {
+  color: var(--color-primary-text);
+  transition: 4s;
+}
