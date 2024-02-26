@@ -1,6 +1,19 @@
-import { printHeaderTemplate } from './src/components/header/header'
-import { printFooterTemplate } from './src/components/footer/footer'
 import './style.css'
+import { headerTemplate } from './src/components/header/header'
+import {
+  mainTemplate,
+  avatarRotate,
+  changeDiv
+} from './src/components/main/main'
+import { footerTemplate } from './src/components/footer/footer'
 
-printHeaderTemplate()
-// printFooterTemplate()
+const printTemplates = () => {
+  document.querySelector('#app').innerHTML = `
+  ${headerTemplate()}
+  ${mainTemplate()}
+  ${footerTemplate()}
+  `
+}
+printTemplates()
+avatarRotate()
+changeDiv()

@@ -1,6 +1,6 @@
 import './header.css'
 
-const headerTemplate = () => {
+export const headerTemplate = () => {
   return `
     <header>
       <h1>Homer Simpson</h1>
@@ -23,8 +23,3 @@ const headerTemplate = () => {
     </header>
   `
 }
-
-export const printHeaderTemplate = () => {
-  document.querySelector('#app').innerHTML = headerTemplate()
-}
-printHeaderTemplate()

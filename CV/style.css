@@ -1,13 +1,12 @@
-@import url('./src/components/header/header.css');
-@import url('./src/components/main/main.css');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
   --background: #000000;
+  --heading: #ffffff;
   --body: #ffde00;
   --color-primary-text: #ffde00;
   --color-secondary-text: #ffffff;
+  --color-content-text: #000000;
 
   --margin-xs: 10px;
   --margin-s: 20px;
@@ -48,5 +47,13 @@ body {
 a,
 h2 {
   color: var(--color-secondary-text);
-  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
+  color: var(--color-secondary-text);
 }
