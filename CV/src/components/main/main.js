@@ -89,7 +89,7 @@ const section1 = () => `
     </ul>
     <p>${data.aboutMe}</p>
     <p>${data.address}</p>
-    <a href="${`mailto:${data.email}">Contact me</a>`}
+    <a href="${`mailto:${data.email}" target="_blank">Contact me</a>`}
  </section>
 `
 export const avatarRotate = () => {
@@ -153,7 +153,7 @@ const section4 = () => `
        <img src=${proj.preview} alt=${proj.title}/>
        <h3>${proj.title}</h3>
        <p>${proj.description}</p>
-       <a href=${proj.link}>Know more...</a>
+       <a href=${proj.link} target="_blank">Know more...</a>
      </li>
      `
        )

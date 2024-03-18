@@ -13,7 +13,7 @@ export const headerTemplate = () => {
               <a href="#education">Education</a>
           </li>
           <li>
-              <a href="#experience">Experience</a>
+              <a href="#change">Experience</a>
           </li>
           <li>
               <a href="#projects">Projects</a>
